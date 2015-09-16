@@ -11,7 +11,7 @@ app.use(express.static(__dirname + '/dist'));
 
 // homepage
 app.get('/', function(req, res){
-    res.render();
+    res.render('index');
 });
 
 
